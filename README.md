@@ -1,83 +1,63 @@
-# E-Commerce Frontend
 
-## 🧠 Overview
-Bu proje, bir e-ticaret uygulamasında kullanıcının ürünleri inceleyip sepete eklemesi ve satın alma sürecine ilerlemesi sırasında yaşadığı deneyimi merkeze alarak geliştirilmiştir.
 
-Amaç, sadece bir arayüz oluşturmak değil; **kullanıcıyı satın almaya götüren net ve akıcı bir user flow** tasarlamaktır.
+# 🛒 E-Commerce Frontend Application
 
----
-
-## 🎯 Problem Statement
-E-ticaret uygulamalarında kullanıcılar:
-- Ürünler arasında kaybolabiliyor
-- Sepet ve ödeme adımlarında süreci terk edebiliyor
-- Karmaşık arayüzler nedeniyle satın alma kararından vazgeçebiliyor
-
-Bu durum, teknik olarak çalışan ama **ürün olarak başarısız** uygulamalara yol açıyor.
+## Overview
+This project is a modern e-commerce frontend application designed to simulate a real-world online shopping experience.  
+The main focus is on **user experience**, **scalable UI architecture**, and **product-oriented development** rather than just feature delivery.
 
 ---
 
-## 💡 Solution Approach
-Bu projede odak noktası:
-
-- Basit ve anlaşılır ürün listeleme
-- Net bir **add to cart** deneyimi
-- Kullanıcının sepet durumunu her an görebilmesi
-- Satın alma yolculuğunda gereksiz adımların azaltılması
-
-oldu.
-
-Frontend tarafında state yönetimi ve component yapısı, bu akışı destekleyecek şekilde kurgulandı.
+## Features
+- Product listing and detail pages  
+- Shopping cart management  
+- Responsive and clean UI  
+- Component-based architecture  
+- Ready for backend & API integration  
 
 ---
 
-## 🔁 User Flow
-1. Kullanıcı ürün listesini görüntüler  
-2. Ürün detayına girer  
-3. Ürünü sepete ekler  
-4. Sepet içeriğini günceller (artır / azalt / sil)  
-5. Satın alma adımına ilerler  
-
-Bu akış, gerçek e-ticaret senaryoları baz alınarak tasarlanmıştır.
+## Tech Stack
+- React  
+- JavaScript  
+- HTML5  
+- CSS3  
+- Git & GitHub  
 
 ---
 
-## 🛠️ Tech Stack
-- Frontend: React
-- State Management: (Context / Redux vs. kullandıysan ekle)
-- Styling: CSS / Styled Components
-- Data Handling: Mock data / API entegrasyonu (varsa belirt)
+## Key Decisions & Trade-offs
+- Chose a component-based architecture to keep the UI scalable as product features grow.
+- Preferred centralized state handling to manage cart and checkout flows consistently.
+- Focused on frontend-first development to validate user experience before backend optimization.
+- Avoided over-engineering (such as micro-frontends) to keep the project maintainable at an early stage.
 
 ---
 
-## ⚖️ Key Decisions & Trade-offs
-- **Frontend odaklı geliştirme** tercih edildi  
-  → Kullanıcı deneyimine ve ürün akışına odaklanmak için
-
-- **Minimal tasarım** benimsendi  
-  → Görsel karmaşa yerine satın alma sürecini hızlandırmak amacıyla
-
-Bu proje, görsel şovdan çok **ürün davranışı** üzerine kuruludur.
+## Product & Business Perspective
+- Reduces friction in the purchasing flow by simplifying product discovery and checkout steps.
+- Designed to increase conversion rates by minimizing unnecessary user actions.
+- Allows easy integration of analytics tools to track cart abandonment and user behavior.
+- Provides a solid foundation for future features such as campaigns, discounts, and personalization.
 
 ---
 
-## 🚀 Possible Improvements
-Proje gerçek bir ürün olarak genişletilmek istenirse:
-
-- Backend ve gerçek ödeme entegrasyonu
-- Kullanıcı bazlı authentication
-- Sipariş geçmişi
-- Performans optimizasyonları
-- Mobil öncelikli responsive iyileştirmeler
+## Engineering Mindset
+This project was built not only to deliver features, but to simulate real-world product development by balancing **speed**, **maintainability**, and **future scalability**.
 
 ---
 
-## 📌 Why This Project Matters
-Bu proje sayesinde:
-- E-ticaret kullanıcı davranışları analiz edildi
-- Satın alma süreci ürün bakış açısıyla ele alındı
-- Teknik geliştirme, **iş hedefleriyle hizalandı**
+## Future Improvements
+- Backend integration (authentication, payments, order management)
+- Performance optimization
+- Improved accessibility
+- Analytics and reporting features
 
-Amaç, sadece çalışan bir frontend değil; **dönüşüm odaklı bir ürün deneyimi** oluşturmaktır.
+---
 
-
+## Getting Started
+```bash
+git clone https://github.com/mykarli/e-commerce-frontend.git
+cd e-commerce-frontend
+npm install
+npm start
